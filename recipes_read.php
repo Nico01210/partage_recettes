@@ -96,7 +96,7 @@ foreach ($recipeWithComments as $comment) {
             <?php foreach ($recipe['comments'] as $comment) : ?>
                 <div class="comment">
                     <p><?php echo($comment['created_at']); ?></p>
-                    <p><?php echo($comment['comment']); ?></p>
+                    <p><?php echo($comment['comment']); ?></p>          
                     <i>(<?php echo $comment['full_name']; ?>)</i>
                 </div>
             <?php endforeach; ?>
